@@ -4,6 +4,8 @@ A module to test the client module
 """
 import unittest
 from typing import Dict
+from requests import HTTPError
+from fixtures import TEST_PAYLOAD
 from parameterized import parameterized, parameterized_class
 from unittest.mock import MagicMock, patch, PropertyMock, Mock
 
